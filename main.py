@@ -1,7 +1,7 @@
 from selenium import webdriver
 
-username = "hasnae.bilil@gmail.com"
-password = "Ihsane1986!"
+username = "your email"
+password = "your password"
 
 url = "https://github.com/login"
 
