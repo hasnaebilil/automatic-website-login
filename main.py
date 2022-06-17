@@ -11,10 +11,7 @@ driver.get(url)
 
 driver.find_element_by_id("email").send_keys(username)
 driver.find_element_by_id("revealable-password").send_keys(password)
-driver.find_element_by_css_selector(".vds-form-fieldset>:last-child>:last-child").click()
+driver.find_element_by_css_selector(".vds-button--primary").click()
 
 
 print("logged in sucessefully")
-
-
-
